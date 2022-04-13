@@ -1,0 +1,16 @@
+.modal-header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #747474;
+    background-color: #e5e8ed;
+}
+.close {
+    border: 1px solid #747474;
+    border-radius: 5px;
+}
+
+.modal-body {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #747474;
+}

@@ -1,0 +1,12 @@
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction:column;
+    max-width: 80%;
+    margin: 20px;
+}
+
+.small-flag {
+    width: 50px;
+}
