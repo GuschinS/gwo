@@ -18,8 +18,6 @@ export class CountryComponent implements OnInit {
 
   countries: Country[] = [];
 
-  searchTerm: string = ''
-
   constructor(private restcountriesService: RestcountriesService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
