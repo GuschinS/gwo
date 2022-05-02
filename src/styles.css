@@ -62,9 +62,12 @@
   }
 
   .logo {
-    margin-left: 200px;
+    margin-left: 10%;
   }
   
+  .logo img {
+    width: 80%;
+  }
   
   /* Main */
 
@@ -85,7 +88,8 @@
     flex-direction: row;
     margin: 20px auto 25px;
     padding: 16px;
-    width: 950px;
+    max-width: 950px;
+    width: 90%;
     height: 650px;
     padding: 5px;
     border-radius: 4px;
@@ -100,7 +104,8 @@
     margin: 20px auto 25px;
     padding: 16px;
     overflow: scroll;
-    width: 950px;
+    max-width: 950px;
+    width: 90%;
     height: 650px;
     padding: 5px;
     border-radius: 4px;
@@ -168,8 +173,9 @@
     border: 1px solid #c2c3c4;
     background-color: #e6ebf1;
     height: 20px;
-    width: 100%;
-    padding: 16px;
+    /* width: 100%; */
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-top: 3px;
     display: flex;
     justify-content: flex-start;
@@ -178,11 +184,12 @@
     line-height: 24px;
   }
   td {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   ul {
-    width: 500px;
+    max-width: 500px;
+    width: 90%;
     margin-top: 100px;
   }
   
