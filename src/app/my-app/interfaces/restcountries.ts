@@ -36,6 +36,12 @@ export interface Country {
     postalCode:   PostalCode;
 }
 
+export interface Name {
+    common:     string;
+    official:   string;
+    nativeName: NativeName;
+}
+
 export interface CapitalInfo {
     latlng: number[];
 }
@@ -49,10 +55,6 @@ export interface CoatOfArms {
     png: string;
     svg: string;
 }
-
-// export interface Currencies {
-//     EUR?: [[Eur]];
-// }
 
 // export interface Currencies {
 //     name:   string;
@@ -85,12 +87,6 @@ export interface Languages {
 export interface Maps {
     googleMaps:     string;
     openStreetMaps: string;
-}
-
-export interface Name {
-    common:     string;
-    official:   string;
-    nativeName: NativeName;
 }
 
 export interface NativeName {

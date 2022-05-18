@@ -6,9 +6,9 @@ import { CountryDetailsComponent } from "./my-app/pages/country-details/country-
 
 
 const routes: Routes = [
-    { path: '', component: RegionComponent },
-    { path: 'regions/:regionId', component: CountryComponent },
-    { path: 'country/:id', component: CountryDetailsComponent }
+  { path: '', component: RegionComponent },
+  { path: 'regions/:regionId', component: CountryComponent },
+  { path: 'country/:id', component: CountryDetailsComponent }
     
 ];
 
@@ -16,4 +16,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

@@ -25,7 +25,6 @@ export class RestcountriesService {
       .pipe(
         tap( console.log )
       );
-
   }
 
   getCountriesByCapital(name: string): Observable<Country[]> {
@@ -36,7 +35,6 @@ export class RestcountriesService {
       .pipe(
         tap( console.log )
       );
-
   }
 
   getCountryByCode(code: string): Observable<Country[]> {
@@ -47,7 +45,6 @@ export class RestcountriesService {
       .pipe(
         tap( console.log )
       );
-
   }
 
   getCountriesByRegion(region: string): Observable<Country[]> {
@@ -58,7 +55,5 @@ export class RestcountriesService {
       .pipe(
         tap( console.log )
       );
-
   }
-
 }

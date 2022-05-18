@@ -13,13 +13,13 @@ import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
-        HeaderComponent,
-        HeaderBackComponent,
-        FooterComponent,
-        RegionComponent,
-        CountryComponent,
-        CountryDetailsComponent,
-        ModalComponent
+    HeaderComponent,
+    HeaderBackComponent,
+    FooterComponent,
+    RegionComponent,
+    CountryComponent,
+    CountryDetailsComponent,
+    ModalComponent
   ],
   imports: [
     CommonModule,
@@ -31,4 +31,4 @@ import { ModalComponent } from './components/modal/modal.component';
     CountryDetailsComponent
   ]
 })
-export class MyAppModule { }
+export class MyAppModule {}
