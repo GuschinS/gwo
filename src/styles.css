@@ -12,10 +12,6 @@
     margin: 0;
   }
   
-  /* router-outlet+* {
-    padding: 0 16px;
-  } */
-  
   /* Text */
   
   h1 {
@@ -96,22 +92,6 @@
     border-radius: 4px;
     border: 1px solid #c2c3c4;
   }
-
-  /* .content-country {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    margin: 20px auto 25px;
-    padding: 16px;
-    overflow: scroll;
-    max-width: 950px;
-    width: 90%;
-    height: 650px;
-    padding: 5px;
-    border-radius: 4px;
-    border: 1px solid #c2c3c4;
-  } */
   
   .card-container {
     display: flex;
